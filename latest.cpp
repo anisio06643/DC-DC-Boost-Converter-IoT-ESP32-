@@ -450,39 +450,7 @@ const char index_html[] PROGMEM = R"rawliteral(
     <div class="card" id="mainCard">
       <canvas id="pwmCanvas"></canvas>
       
-      <div class="measurements">
-        <div class="measure">
-          <div class="measure-label">VOUT</div>
-          <div class="measure-value val-vout"><span id="vOutDisp">0.00</span><span class="measure-unit">V</span></div>
-        </div>
-        <div class="measure">
-          <div class="measure-label">IOUT</div>
-          <div class="measure-value val-iout"><span id="iOutDisp">0.00</span><span class="measure-unit">A</span></div>
-        </div>
-        <div class="measure">
-          <div class="measure-label">RPM</div>
-          <div class="measure-value val-rpm"><span id="rpmDisp">0</span></div>
-        </div>
-
-        <div class="measure">
-          <div class="measure-label">POUT</div>
-          <div class="measure-value val-pout"><span id="pOutDisp">0.0</span><span class="measure-unit">W</span></div>
-        </div>
-        <div class="measure">
-          <div class="measure-label">I-INPUT</div>
-          <div class="measure-value val-iin"><span id="iInDisp">0.00</span><span class="measure-unit">A</span></div>
-        </div>
-        <div class="measure">
-          <div class="measure-label">P-INPUT</div>
-          <div class="measure-value val-pin"><span id="pInDisp">0.0</span><span class="measure-unit">W</span></div>
-        </div>
-
-        <div class="measure full-width">
-          <div class="measure-label">System Efficiency</div>
-          <div class="measure-value val-eff"><span id="effDisp">0.0</span><span class="measure-unit">%</span></div>
-        </div>
-      </div>
-      
+     
       <div class="power-row">
         <span class="power-label">System Power</span>
         <label class="toggle">
